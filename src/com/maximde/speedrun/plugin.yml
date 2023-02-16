@@ -1,26 +1,16 @@
-main: com.maximde.nextfight.main.MCBattleRoyale
-name: NextFight
+main: com.maximde.speedrun.Main
+name: SpeedRun
 version: 1.0.0
-api-version: 1.16
-description: Official NextFight Plugin
-author: MaximDe, KoKoKotlin
-depend: [AdvancementsAPI]
+api-version: 1.0
+description: Speedrun plugin
+author: MaximDe
 
 commands:
-   stats:
-   start:
-   help:
-   advancements:
-   setcape:
-   mute:
-   unmute:
-   discord:
-   rldata:
-   l:
-   lobby:
-   spawn:
-   resources:
-   addtogame:
-   connecttwitch:
-   loststats:
-   test:
+   reset:
+      description: Reset all worlds!
+   timer:
+      description: The timer!
+   time:
+      description: Shows the current timer time!
+   random:
+         description: Random Things!

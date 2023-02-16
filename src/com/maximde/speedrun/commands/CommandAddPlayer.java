@@ -1,2 +1,4 @@
-package com.maximde.speedrun.commands;public class CommandAddPlayer {
+package com.maximde.speedrun.commands;
+
+public class CommandAddPlayer {
 }
